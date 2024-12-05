@@ -34,7 +34,7 @@ namespace CipherThing
 
         public void SetInput(string input)
         {
-            _input = input;
+            _input = input.ToLower();
         }
 
         public void SetOutput(string output)
